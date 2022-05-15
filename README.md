@@ -1,18 +1,18 @@
 # Apple-Shortcuts-YouTube-Music-Control
 
 http.server communication/
-port is 8080
+port is 8080/br
 
-http://127.0.0.1:8080/[ command ]
+http://127.0.0.1:8080/[ command ]/br
 
-command:
-               Sound?start=MediaPlayPause
-               Sound?start=NextTrack
-               Sound?start=PrevTrack
-               Sound?volume=up
-               Sound?volume=down
-               name?start= [song title]
+command:/br
+               Sound?start=MediaPlayPause/br
+               Sound?start=NextTrack/br
+               Sound?start=PrevTrack/br
+               Sound?volume=up/br
+               Sound?volume=down/br
+               name?start= [song title]/br
 
-return:
-               NextTrack: Return song title
-               PrevTrack: Return song title
+return:/br
+               NextTrack: Return song title/br
+               PrevTrack: Return song title/br
