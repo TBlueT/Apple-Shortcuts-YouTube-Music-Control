@@ -1,5 +1,7 @@
 # Apple-Shortcuts-YouTube-Music-Control
 
+Control Chrome with chromedriver.exe
+
 http.server communication<br>
 port is 8080<br>
 
