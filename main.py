@@ -103,8 +103,6 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
                 self.YM.Search(value)
                 self.response_Ok()
 
-            else:
-                print('on')
         self.jp.write_json(connect_time)
         print(connect_time)
 
