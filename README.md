@@ -1,6 +1,6 @@
 # Apple-Shortcuts-YouTube-Music-Control
 
-http.server communication
+http.server communication/
 port is 8080
 
 http://127.0.0.1:8080/[ command ]
