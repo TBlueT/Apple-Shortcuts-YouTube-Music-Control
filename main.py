@@ -17,6 +17,12 @@ class YouMusic:
         http_address = "https://music.youtube.com/search?q=" + value
         self.driver.get(http_address)
         time.sleep(0.5)
+        try:
+            alert = self.driver.switch_to.alert
+            alert.accept()
+        except:
+            pass
+        time.sleep(1)
         rslt = self.driver.find_element_by_xpath("//*[@id='play-button']")
         rslt.click()
         time.sleep(1)
